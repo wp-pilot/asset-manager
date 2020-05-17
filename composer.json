@@ -1,0 +1,24 @@
+{
+    "name": "wp-pilot/asset-manager",
+    "description": "Asset management class of wp-pilot OOP WordPress code kit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wp-pilot",
+            "email": "wp-pilot@outlook.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "WP_Pilot_Core\\": "/"
+      }
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "^3.4",
+      "wp-coding-standards/wpcs": "^2.1",
+      "phpcompatibility/phpcompatibility-wp": "^2.0",
+      "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
+    },
+    "require": {}
+}
